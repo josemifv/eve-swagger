@@ -48,6 +48,9 @@ setup(
     platforms=["any"],
     packages=find_packages(),
     install_requires=read_file('requirements.txt'),
+    dependency_links = [
+        "git+https://github.com/josemifv/eve.git#egg=eve"
+    ],
     keywords=['swagger', 'eve', 'rest', 'api'],
     classifiers=[
         'Development Status :: 3 - Alpha',
