@@ -1,1 +1,1 @@
-eve
+-e git+https://github.com/josemifv/eve#egg=eve
